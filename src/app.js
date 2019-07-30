@@ -1,3 +1,5 @@
+console.log ('java script file loaded - src folder')
+
 const chalk = require('chalk')
 const path = require('path')
 const express = require('express')
