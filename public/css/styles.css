@@ -1,0 +1,173 @@
+body{
+  /* background-color: #fff; */
+  color: #000;
+  font-family: arial;
+  /*margin: 0 auto;*/
+  display: flex;
+  flex-direction: column;
+  min-height : 100vh;
+  font-size: 16px;
+  text-align: left;
+}
+.container{
+  margin: 0 auto;
+  flex-grow:1;
+}
+h1 {
+  font-size: 2em
+}
+h2 {
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5em;
+}
+a{
+  color:#fff;
+  text-decoration: none;
+}
+p{
+  margin-left: 6px;
+}
+h4{
+  text-align: left;
+  font-size: 1.17em;
+  font-weight: normal;
+}
+header {
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  float: left;
+  background-color: #ff6666;
+}
+footer {
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  float: left;
+  background-color: #3399cc;
+}
+div  {
+  /*border-style: solid;*/
+  border-width: 1px;
+  width: 100%;
+  position: relative;
+  float: left;
+}
+#box {
+  /*border-style: dotted;*/
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  background-color: #bbb;
+  margin: 0 auto;
+  max-height: 600px;
+}
+#box img {
+	width: 100%;
+  height: auto;
+}
+#boxRed {
+  background-color: #ff6666;
+  color: #fff;
+}
+#boxBlue {
+  background-color: #3399cc;
+  color: #fff;
+}
+#boxWhite {
+  background-color: #fff;
+  color: #000;
+}
+#boxOne {
+  background-color: #ff6666;
+  color: #fff;
+}
+#boxOne {
+  background-color: #ff6666;
+  color: #fff;
+}
+#mainMenu{
+  cursor:pointer;
+  background-color: #fff;
+}
+input{
+  border: 1px dotted #bbb;
+  padding: 6px;
+  background-color: #fff;
+  font-size: 16px;
+  width: 99%;
+}
+button{
+  cursor:pointer;
+  border: none;
+  background-color: #ccc;
+  color: #fff;
+  border-radius: 2px;
+  margin-top: 6px;
+  width: 100%;
+  padding: 18px;
+  font-size: 1.5em;
+}
+button:hover{
+  
+}
+button:active{
+  transform: scale(.98);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 12px;
+  display: block;
+  text-align: center;
+}
+li{
+  padding-top: 3px;
+  padding-top: 3px;
+}
+li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*h2 {
+  text-align: left;
+  margin: 0;
+  margin-left: 6px;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}*/
+
+/*@font-face {
+  font-family: myFirstFont;
+  src: url(cooperlightbt.ttf);
+}
+
+//declare font above and call on font in body below 
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(ARCARTER.ttf);
+}
+@font-face {
+  font-family: myFourthFont;
+  src: url(tt0504m_.ttf);
+}*/
