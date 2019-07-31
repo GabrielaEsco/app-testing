@@ -21,7 +21,9 @@ weatherForm.addEventListener('submit', (e) => {
 	line2Msg.textContent = ''
 	//to clear values from previous search - ""
 
-	fetch('http://localhost:3000/weather?address='+ address).then((response) => {
+	fetch('/weather?address='+ address).then((response) => {
+		//use above when using heroku
+		//---fetch('http://localhost:3000/weather?address='+ address).then((response) => {
 		response.json().then((dataFound) => {
 			if (dataFound.error){
 				

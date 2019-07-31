@@ -10,6 +10,8 @@ const forecast = require('./utils/forecast')
 //above to be used for weather finder - user input for address/location provided
 
 const app = express()
+const port = process.env.Port || 3000
+//sets port equal to environment value
 
 //define paths to other files
 const publicDirPath = path.join(__dirname, '../public'  )
@@ -92,9 +94,15 @@ app.get('*', (req, res)=>{
 })
 //app.com/404-Page - set up for last line of code after other matches not found
 
-app.listen(3000, (req, res) => {
-	console.log(chalk.bold('Server running from Port 3000.'))
+app.listen(port, (req, res) => {
+	console.log(chalk.bold('Server running from Port 3000.' + port))
 })
+//use above when app is running on heroku. Port defined above as const
+
+// app.listen(3000, (req, res) => {
+// 	console.log(chalk.bold('Server running from Port 3000.'))
+// })
+//use above when running from computer
 
 
 
