@@ -29,7 +29,7 @@ app.use(express.static(publicDirPath))
 
 app.get('', (req, res) =>{
 	res.render('index', {
-		title: 'Main Menu',
+		title: 'Weather App',
 		name: '',
 		username: 'Gabriela'
 	})
