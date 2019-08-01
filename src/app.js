@@ -95,7 +95,7 @@ app.get('*', (req, res)=>{
 //app.com/404-Page - set up for last line of code after other matches not found
 
 app.listen(port, (req, res) => {
-	console.log('Server running from Port' + port)
+	console.log('Server running from Port ' + port)
 })
 //use above when app is running on heroku. Port defined above as const
 
